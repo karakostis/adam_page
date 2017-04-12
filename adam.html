@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ADAM</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="adam/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Weather Fonts Core CSS -->
+    <link href="adam/css/weather-icons-wind.min.css" rel="stylesheet">
+    <link href="adam/css/weather-icons.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="adam/css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="adam/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="height:80px;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="adam.html" style="background-image:url('/adam/img/wfp_logo_72_white.png'); background-position-x: 15px; height: 65px; background-repeat: no-repeat;  color:white; margin-top:5px; font-size:32px; padding-left: 85px;"><strong>WFP </strong> ADAM</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="margin-top:10px;">
+                    <!--
+                    <li>
+                        <a href="#about" style="color:white;">About</a>
+                    </li>
+                    -->
+                    <li>
+                        <a href="#contact" style="color:white;">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white;">Articles <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://www.wfp.org/stories/adam" target="_blank">ADAM Alert System Extends Its Reach To Boost Humanitarian Response</a>
+                            </li>
+                            <li>
+                                <a href="https://www.wfp.org/stories/meet-adam-powerful-weapon-wfp-emergency-response" target="_blank">Meet ADAM – A Powerful Weapon In WFP’s Emergency Response</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white;">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="http://opweb.wfp.org/pages/?PageID=246" target="_blank">GIS Unit</a>
+                            </li>
+                            <li>
+                                <a href="http://geonode.wfp.org/" target="_blank">WFP GeoNode</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide" style="height:400px">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/adam/img/banner/earthquake_banner.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2 style="color:black; text-shadow: 3px 3px #FFFFFF;">Earthquake Dashboard</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/adam/img/banner/shakemap_banner.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2 style="color:black; text-shadow: 3px 3px #FFFFFF;">ShakeMaps Dashboard</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/adam/img/banner/tropical_banner.png');"></div>
+                <div class="carousel-caption">
+                    <h2 style="color:black; text-shadow: 3px 3px #FFFFFF;">Tropical Storms Dashboard</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                  ADAM Automatic Disaster Analysis & Mapping
+                </h1>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default" style="height:316px">
+                    <div class="panel-heading">
+                        <h4><i class="wi wi-earthquake"></i> ADAM Earthquakes</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Within a few minutes following an earthquake, ADAM automatically creates a dashboard (this word should contain a link for this page https://www.wfp.org/stories/meet-adam-powerful-weapon-wfp-emergency-response) with the most important information on the event. After a couple of hours, a ShakeMap (this word should contain a link for this page http://www.wfp.org/stories/adam) dashboard is generated, as a follow up on possible impact on the population. Subscriptions are open to members of the Humanitarian Community (UN agencies, NGOs, Institutions, Ministries etc.).</p>
+                        <a href="http://geonode.wfp.org/adam/form/adam.html" class="btn btn-default" target="_blank"> <i class="glyphicon glyphicon-pencil"></i> Subscribe </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default" style="height:316px">
+                    <div class="panel-heading">
+                        <h4><i class="wi wi-sandstorm"></i> ADAM Tropical Storms</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>ADAM Tropical Storms monitors every significant cyclone worldwide, creating dashboards with maps and cyclone-related information. Moreover, the system performs a detailed analysis on population potentially affected, reported by municipalities and risk levels. Subscriptions are open to members of the Humanitarian Community (UN agencies, NGOs, Institutions, Ministries…). More info at</p>
+                        <a href="http://geonode.wfp.org/adam/form/adam_storms.html" class="btn btn-default" target="_blank"> <i class="glyphicon glyphicon-pencil"></i> Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header" name="about">ADAM Earthquakes</h2>
+            </div>
+            <div class="col-md-6">
+                <p>An advanced notification system for earthquakes:</p>
+                <ul>
+                    <li><strong>Near Real Time Email Notifications</strong></li>
+                    <li><strong>Notifications by country, regions, globally</strong></li>
+                    <li><strong>Follow up Shake Map</strong></li>
+                    <li>Detailed Dashboard</li>
+                    <li>Information on Affected Population/li>
+                    <li>Weather Forecast</li>
+                    <li>WFP Presence</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="/adam/img/earthquake.jpg" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">ADAM Tropical Storms</h2>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="/adam/img/tropical.jpeg" alt="">
+            </div>
+            <div class="col-md-6">
+                <p>An advanced notification system for tropical storms:</p>
+                <ul>
+                    <li><strong>Near Real Time Email Notifications</strong></li>
+                    <li><strong>Notifications by country, regions, globally</strong></li>
+                    <li><strong>Follow up Shake Map</strong></li>
+                    <li>Detailed Dashboard</li>
+                    <li>Information on Affected Population/li>
+                    <li>Weather Forecast</li>
+                    <li>WFP Presence</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+
+                <div class="col-md-4" style="float:right">
+                  <h3>Contact Details</h3>
+                    <p>WFP Emergency Preparedness and Support Response Division</p>
+                    <p>
+                        World Food Programme<br>Via Cesare Giulio Viola, 68, 00148 Roma<br>
+                    </p>
+                    <p><i class="fa fa-envelope-o"></i>
+                        <abbr title="Email">E</abbr>: <a name="contact" href="#">hq.gis@wfp.org</a>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img class="img-responsive" src="/adam/img/meet_adam.png" alt="" style="float:right" width="130px;" height="150px;">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="adam/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="adam/js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
